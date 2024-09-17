@@ -1,0 +1,127 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+    <script type="text/javascript">
+      window.tailwind.config = {
+        darkMode: ['class'],
+        theme: {
+          extend: {
+            colors: {
+              border: 'hsl(var(--border))',
+              input: 'hsl(var(--input))',
+              ring: 'hsl(var(--ring))',
+              background: 'hsl(var(--background))',
+              foreground: 'hsl(var(--foreground))',
+              primary: {
+                DEFAULT: 'hsl(var(--primary))',
+                foreground: 'hsl(var(--primary-foreground))'
+              },
+              secondary: {
+                DEFAULT: 'hsl(var(--secondary))',
+                foreground: 'hsl(var(--secondary-foreground))'
+              },
+              muted: {
+                DEFAULT: 'hsl(var(--muted))',
+                foreground: 'hsl(var(--muted-foreground))'
+              },
+              accent: {
+                DEFAULT: 'hsl(var(--accent))',
+                foreground: 'hsl(var(--accent-foreground))'
+              },
+              card: {
+                DEFAULT: 'hsl(var(--card))',
+                foreground: 'hsl(var(--card-foreground))'
+              },
+            },
+          }
+        }
+      }
+    </script>
+    <style type="text/tailwindcss">
+      @layer base {
+        :root {
+          --background: 0 0% 100%;
+          --foreground: 240 10% 3.9%;
+          --card: 0 0% 100%;
+          --card-foreground: 240 10% 3.9%;
+          --primary: 240 5.9% 10%;
+          --primary-foreground: 0 0% 98%;
+          --secondary: 240 4.8% 95.9%;
+          --secondary-foreground: 240 5.9% 10%;
+        }
+        .dark {
+          --background: 240 10% 3.9%;
+          --foreground: 0 0% 98%;
+          --card: 240 10% 3.9%;
+          --primary: 0 0% 98%;
+          --primary-foreground: 240 5.9% 10%;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="bg-background text-foreground">
+    <div class="container mx-auto p-4 grid gap-4 md:grid-cols-3">
+   <!-- Sección Izquierda -->
+   <div class="bg-card p-4 rounded-lg shadow-lg">
+    <div class="flex items-center mb-4">
+      <img src="images/mvprimeuser.webp" alt="Profile Picture" class="w-12 h-12 rounded-full lazy" loading="lazy" />
+      <div class="ml-2">
+        <h2 class="text-lg font-bold">@CeOGJr</h2>
+        <span class="bg-primary text-primary-foreground rounded-full px-1 py-1 text-xs">Hit Me Hard and Soft</span>
+      </div>
+    </div>
+    <p class="text-muted-foreground">Titan Gear, soporte recurrente personalizado, sin costo de instalación. Forjado en el corazón de Original Journey.</p>
+    <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 mt-4 p-2 rounded w-full">Titan⎅Gear</button>
+  </div>
+
+  <!-- Sección Central -->
+  <div class="bg-card p-4 rounded-lg shadow-lg">
+    <form action="mailto:tucorreo@dominio.com" method="POST" enctype="text/plain">
+      <label for="email" class="block text-sm font-medium text-muted-foreground mb-2">Envia tu mensaje</label>
+      <input type="email" name="to" id="email" placeholder="Destinatario: Ej. ceo@ejemplo.com" required class="w-full p-2 rounded border border-border bg-input text-foreground mb-4" />
+      <textarea name="message" id="message" placeholder="Escribe tu mensaje aquí..." required class="w-full p-2 rounded border border-border bg-input text-foreground mb-4"></textarea>
+      <button>Enviar</button>      
+
+    </form>
+    <div class="mt-4">
+      <h3 class="font-bold">GALAXY Voyage cast-happening</h3>
+      <p class="text-muted-foreground">New updates coming soon.</p>
+          <!-- Galería de imágenes -->
+    <div class="galeria mt-8">
+      <img src="images/ATTACKS ON CLOUD-BASED SERVICES.png" alt="ATTACKS ON CLOUD-BASED SERVICES" class="lazy" loading="lazy">
+      <img src="images/CYBERSECURITY INDUSTRY TRENDS.png" alt="CYBERSECURITY INDUSTRY TRENDS" class="lazy" loading="lazy">
+      <img src="images/EVOLUTION OF MULTI-FACTOR AUTHENTICATION.png" alt="EVOLUTION OF MULTI-FACTOR AUTHENTICATION" class="lazy" loading="lazy">
+      <img src="images/NEW TOOLS TO COMBAT REMOTE WORK VULNERABILITY.png" alt="NEW TOOLS TO COMBAT REMOTE WORK VULNERABILITY" class="lazy" loading="lazy">
+      <img src="images/REAL TIMME DATA MONITORING.png" alt="REAL TIMME DATA MONITORING" class="lazy" loading="lazy">
+      <img src="images/TARGERED RANSOMWARE ATTACKS.png" alt="TARGERED RANSOMWARE ATTACKS" class="lazy" loading="lazy">
+    </div>
+        </div>
+      </div>
+
+      <!-- Sección Derecha -->
+      <div class="bg-card p-4 rounded-lg shadow-lg md:block hidden fixed top-0 right-0 w-full md:w-1/4 mt-4">
+        <h3 class="font-bold">Staff 23/24 ♃ Season Drop</h3>
+        <ul class="mt-2 space-y-2">
+          <li class="flex justify-between items-center py-2">
+            <span class="text-muted-foreground">@OGJR_Vision</span>
+            <button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">S-Media</button>
+          </li>
+          <li class="flex justify-between items-center py-2">
+            <span class="text-muted-foreground">@iShop_ogjr</span>
+            <button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">BIO-MD ➤IG</button>
+          </li>
+          <li class="flex justify-between items-center py-2">
+            <span class="text-muted-foreground">@Support</span>
+            <button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">MSJ🟢 710 List</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
