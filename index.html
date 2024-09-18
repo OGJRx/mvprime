@@ -60,68 +60,150 @@
           --primary-foreground: 240 5.9% 10%;
         }
       }
+
+      body {
+      background-image: url('images/background-site.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
     </style>
     <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="custom-styles.css">
   </head>
   <body class="bg-background text-foreground">
     <div class="container mx-auto p-4 grid gap-4 md:grid-cols-3">
-   <!-- Sección Izquierda -->
-   <div class="bg-card p-4 rounded-lg shadow-lg">
-    <div class="flex items-center mb-4">
-      <img src="images/mvprimeuser.webp" alt="Profile Picture" class="w-12 h-12 rounded-full lazy" loading="lazy" />
-      <div class="ml-2">
-        <h2 class="text-lg font-bold">@CeOGJr</h2>
-        <span class="bg-primary text-primary-foreground rounded-full px-1 py-1 text-xs">Hit Me Hard and Soft</span>
-      </div>
+
+<div class="md:hidden flex justify-between mb-4">
+  <button id="toggleLeft" class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded">Izquierda</button>
+  <button id="toggleRight" class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded">Derecha</button>
+</div>
+
+<!-- Sección Izquierda -->
+<div id="leftSection" class="bg-card p-4 rounded-lg shadow-lg">
+  <div class="flex items-center mb-4">
+    <img src="images/mvprimeuser.webp" alt="Profile Picture" class="w-12 h-12 rounded-full lazy" loading="lazy" />
+    <div class="ml-2">
+      <h2 class="text-lg font-bold">@CeOGJr</h2>
+      <span class="bg-primary text-primary-foreground rounded-full px-1 py-1 text-xs">Hit Me</span>
     </div>
-    <p class="text-muted-foreground">Titan Gear, soporte recurrente personalizado, sin costo de instalación. Forjado en el corazón de Original Journey.</p>
-    <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 mt-4 p-2 rounded w-full">Titan⎅Gear</button>
   </div>
-
-  <!-- Sección Central -->
-  <div class="bg-card p-4 rounded-lg shadow-lg">
-    <form action="mailto:tucorreo@dominio.com" method="POST" enctype="text/plain">
-      <label for="email" class="block text-sm font-medium text-muted-foreground mb-2">Envia tu mensaje</label>
-      <input type="email" name="to" id="email" placeholder="Destinatario: Ej. ceo@ejemplo.com" required class="w-full p-2 rounded border border-border bg-input text-foreground mb-4" />
-      <textarea name="message" id="message" placeholder="Escribe tu mensaje aquí..." required class="w-full p-2 rounded border border-border bg-input text-foreground mb-4"></textarea>
-      <button>Enviar</button>      
-
-    </form>
-    <div class="mt-4">
-      <h3 class="font-bold">GALAXY Voyage cast-happening</h3>
-      <p class="text-muted-foreground">New updates coming soon.</p>
-          <!-- Galería de imágenes -->
-    <div class="galeria mt-8">
-      <img src="images/ATTACKS ON CLOUD-BASED SERVICES.png" alt="ATTACKS ON CLOUD-BASED SERVICES" class="lazy" loading="lazy">
-      <img src="images/CYBERSECURITY INDUSTRY TRENDS.png" alt="CYBERSECURITY INDUSTRY TRENDS" class="lazy" loading="lazy">
-      <img src="images/EVOLUTION OF MULTI-FACTOR AUTHENTICATION.png" alt="EVOLUTION OF MULTI-FACTOR AUTHENTICATION" class="lazy" loading="lazy">
-      <img src="images/NEW TOOLS TO COMBAT REMOTE WORK VULNERABILITY.png" alt="NEW TOOLS TO COMBAT REMOTE WORK VULNERABILITY" class="lazy" loading="lazy">
-      <img src="images/REAL TIMME DATA MONITORING.png" alt="REAL TIMME DATA MONITORING" class="lazy" loading="lazy">
-      <img src="images/TARGERED RANSOMWARE ATTACKS.png" alt="TARGERED RANSOMWARE ATTACKS" class="lazy" loading="lazy">
+  <p class="text-muted-foreground">Titan Gear, soporte recurrente personalizado, sin costo de instalación. Forjado en el corazón de Original Journey.</p>
+  <a href="https://linktr.ee/ogjrshoesgallery" target="_blank"> <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 mt-4 p-2 rounded w-full">Titan⎅Gear</button></a>
+  <p class="text-muted-foreground mt-16">This Office is a team collaboration application developed by @CEOGJR as part of the Titan⎅Gear family of products, offering safe-workspace chat and video conferencing, file storage, and integration of proprietary and third-party applications and services.</p> 
+  <div class="outer items-center mt-15">
+    <div class="dot items-center mt-15"></div>
+    <div class="card items-center mt-15">
+      <div class="ray items-center mt-15"></div>
+      <div class="text items-center mt-15">750k</div>
+      <div>Views</div>
+      <div class="line topl items-center mt-15"></div>
+      <div class="line leftl items-center mt-15"></div>
+      <div class="line bottoml items-center mt-15"></div>
+      <div class="line rightl items-center mt-15"></div>
     </div>
-        </div>
-      </div>
+  </div>
+  <h3 class="font-bold mt-15">currently building @bigday Electrolytes and pre-workout drink. Available on Amazon Prime & TikTok Shop. big-day.com</h3>
+  <a href="https://youtu.be/3kOJKhYPYdY?si=5SaqzOExPZ47b-6s" target="_blank">
+    <img src="images/Change Your Life in 6 Months (My 5-Step Process).png" alt="Change Your Life in 6 Months My 5-Step Process" class="lazy" loading="lazy">
+  </a>
+  <h3 class="font-bold mt-1">Ofrecen orientación y motivación para superar los desafíos y alcanzar el éxito.</h3>
+  <a href="https://youtu.be/4hE9TiqfAnc?si=pTW0rTl2aNhXWXKL" target="_blank">
+    <img class="mt-14" src="images/how to make money in your sleep (investing guide 2024).png" alt="how to make money in your sleep investing guide 2024" class="lazy" loading="lazy">
+  </a>
+  <h3 class="font-bold mt-1">Proporcionan información valiosa sobre cómo comenzar a invertir y cómo tomar decisiones de inversión informadas.</h3>
+  <a href="https://youtu.be/as5OXeszE_s?si=cYi6T_4DIqlq-F6n" target="_blank">
+    <img class="mt-14" src="images/Let me teach you how to invest in 2024.png" alt="Let me teach you how to invest in 2024" class="lazy" loading="lazy">
+  </a>
+  <h3 class="font-bold mt-1">Cómo tomar decisiones de inversión informadas, son útiles para cualquier persona que quiera aprender más sobre la inversión.</h3>
+  
+  <a href="https://youtu.be/_MWDpfg4Exg?si=EL8wvdWMryxgvb01" target="_blank">
+    <img class="mt-14" src="images/Want To Get To $100,000 Before 2025_ Here Are 7 Ways.png" alt="Want To Get To $100,000 Before 2025_ Here Are 7 Ways" class="lazy" loading="lazy">
+  </a>
+  <h3 class="font-bold mt-1">El video enfatiza que la inversión es un juego a largo plazo. Es importante ser paciente y no dejarse llevar por las emociones a corto plazo.</h3>
+</div> 
 
-      <!-- Sección Derecha -->
-      <div class="bg-card p-4 rounded-lg shadow-lg md:block hidden fixed top-0 right-0 w-full md:w-1/4 mt-4">
-        <h3 class="font-bold">Staff 23/24 ♃ Season Drop</h3>
-        <ul class="mt-2 space-y-2">
-          <li class="flex justify-between items-center py-2">
-            <span class="text-muted-foreground">@OGJR_Vision</span>
-            <button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">S-Media</button>
-          </li>
-          <li class="flex justify-between items-center py-2">
-            <span class="text-muted-foreground">@iShop_ogjr</span>
-            <button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">BIO-MD ➤IG</button>
-          </li>
-          <li class="flex justify-between items-center py-2">
-            <span class="text-muted-foreground">@Support</span>
-            <button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">MSJ🟢 710 List</button>
-          </li>
-        </ul>
-      </div>
+<!-- Sección Central -->
+<div class="bg-card p-4 rounded-lg shadow-lg">
+  <form action="mailto:destinatario@empresa.com" method="POST" enctype="text/plain">
+    <label for="emisor" class="block text-sm font-medium text-muted-foreground mb-2">Tu Email</label>
+    <input type="email" name="from" id="emisor" placeholder="Introduce tu correo" required class="w-full p-2 rounded border border-border bg-input text-foreground mb-4" />
+      <label for="message" class="block text-sm font-medium text-muted-foreground mb-2">Escribe tu mensaje</label>
+    <textarea name="message" id="message" placeholder="Escribe tu mensaje aquí..." required class="w-full p-2 rounded border border-border bg-input text-foreground mb-4"></textarea>
+      <button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-4 py-2 w-full">Enviar</button>
+  </form>
+  <div class="mt-4">
+    <h3 class="font-bold">GALAXY Voyage cast-happening</h3>
+    <p class="text-muted-foreground">New updates coming soon. CLick on IMG`s</p>
+    <!-- Galería de imágenes -->
+<div class="galeria mt-8">
+  <a href="https://www.fiverr.com/s/2K0W39e" target="_blank">
+    <img src="images/ATTACKS ON CLOUD-BASED SERVICES.png" alt="ATTACKS ON CLOUD-BASED SERVICES" class="lazy" loading="lazy">
+  </a>
+  <h3 class="font-bold">AI, Cloud, Productivity, Computing, Gaming & Apps</h3>
+  <a href="https://www.linkedin.com/in/ogjrmvprime/" target="_blank">
+    <img src="images/CYBERSECURITY INDUSTRY TRENDS.png" alt="CYBERSECURITY INDUSTRY TRENDS" class="lazy" loading="lazy">
+  </a>
+  
+  <a href="https://www.threads.net/@ceogjr" target="_blank">
+    <img src="images/EVOLUTION OF MULTI-FACTOR AUTHENTICATION.png" alt="EVOLUTION OF MULTI-FACTOR AUTHENTICATION" class="lazy" loading="lazy">
+  </a>
+  
+  <a href="https://www.facebook.com/profile.php?id=61557203520073" target="_blank">
+    <img src="images/NEW TOOLS TO COMBAT REMOTE WORK VULNERABILITY.png" alt="NEW TOOLS TO COMBAT REMOTE WORK VULNERABILITY" class="lazy" loading="lazy">
+  </a>
+  
+  <a href="https://nowpayments.io/payment?iid=6328442284" target="_blank">
+    <img src="images/REAL TIMME DATA MONITORING.png" alt="REAL TIMME DATA MONITORING" class="lazy" loading="lazy">
+  </a>
+  
+  <a href="https://x.com/CEOGJR" target="_blank">
+    <img src="images/TARGERED RANSOMWARE ATTACKS.png" alt="TARGERED RANSOMWARE ATTACKS" class="lazy" loading="lazy">
+  </a>
+</div>
+
+<!-- Sección Derecha -->
+<div id="rightSection" class="bg-card p-4 rounded-lg shadow-lg md:block hidden fixed top-0 right-0 w-full md:w-1/4 mt-4">
+  <h3 class="font-bold">Staff 23/24 ♃ Season Drop</h3>
+  <ul class="mt-2 space-y-2">
+    <li class="flex justify-between items-center py-2">
+      <span class="text-muted-foreground">@OGJR_Vision</span>
+      <a href="https://lnk.bio/CEOGJRMARKET" target="_blank"><button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">S-Media</button></a>
+    </li>
+    <li class="flex justify-between items-center py-2">
+      <span class="text-muted-foreground">@iShop_ogjr</span>
+      <a href="https://www.instagram.com/ceogjr/" target="_blank"><button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">BIO-MD ➤IG</button></a>
+    </li>
+    <li class="flex justify-between items-center py-2">
+      <span class="text-muted-foreground">@Support</span>
+      <a href="https://www.wa.me/message/3SXPZVNKIFEGK1" target="_blank"><button class="bg-primary text-primary-foreground hover:bg-primary/80 rounded px-2 py-1 text-xs">MSJ🟢 710 List</button></a>
+    </li>
+  </ul>
+</div>
+
     </div>
 
+    <script>
+      document.getElementById('toggleLeft').addEventListener('click', function() {
+        const leftSection = document.getElementById('leftSection');
+        if (leftSection.style.display === 'none' || !leftSection.style.display) {
+          leftSection.style.display = 'block';
+        } else {
+          leftSection.style.display = 'none';
+        }
+      });
     
+      document.getElementById('toggleRight').addEventListener('click', function() {
+        const rightSection = document.getElementById('rightSection');
+        if (rightSection.style.display === 'none' || !rightSection.style.display) {
+          rightSection.style.display = 'block';
+        } else {
+          rightSection.style.display = 'none';
+        }
+      });
+    </script>
+
   </body>
 </html>
